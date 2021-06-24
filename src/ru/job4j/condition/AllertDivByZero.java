@@ -3,7 +3,6 @@ package ru.job4j.condition;
 public class AllertDivByZero {
     public static void main(String[] args) {
         possibleDiv(-1);
-        possibleDiv(0);
     }
 
     public static void possibleDiv(int number) {
