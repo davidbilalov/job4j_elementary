@@ -15,7 +15,7 @@ public class CheckNumber {
 
     public static int calc(int finish) {
         int count = 0;
-        for (int number = finish - 1; number > 0; number--) {
+        for (int number = 2; number <= finish; number++) {
             if (CheckNumber.check(number)) {
                 count++;
             }
