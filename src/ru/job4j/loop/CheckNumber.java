@@ -12,4 +12,14 @@ public class CheckNumber {
         }
         return prime;
     }
+
+    public static int calc(int finish) {
+        int count = 0;
+        for (int number = finish - 1; number > 0; number--) {
+            if (CheckNumber.check(number)) {
+                count++;
+            }
+        }
+        return count;
+    }
 }
