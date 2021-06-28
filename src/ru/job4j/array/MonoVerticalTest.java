@@ -11,7 +11,7 @@ public class MonoVerticalTest {
                 {' ', ' ', 'X'},
         };
         int column = 2;
-        boolean result = MonoVertical.monoVertical(input, column);
+        boolean result = MatrixCheck.monoVertical(input, column);
         Assert.assertTrue(result);
     }
 }
