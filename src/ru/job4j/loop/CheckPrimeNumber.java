@@ -27,4 +27,5 @@ public class CheckPrimeNumber {
         int expected = 1;
         Assert.assertEquals(expected, result);
     }
+
 }

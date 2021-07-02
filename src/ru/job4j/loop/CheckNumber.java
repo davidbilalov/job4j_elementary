@@ -8,7 +8,6 @@ public class CheckNumber {
                     return false;
                 }
             }
-
         return prime;
     }
 
